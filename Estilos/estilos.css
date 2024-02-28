@@ -1,0 +1,123 @@
+nav {
+    background-color: #1A2440;
+}
+
+textonav {
+    margin-left: 2%;
+    color: #ffffff;
+    font-family: fantasy;
+    font-size: 300%;
+}
+
+body {
+    background-color: #194159;
+}
+
+.ContenedorCuadros {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.CuadroOpciones {
+    margin-top: 3%;
+    margin-left: 3.5%;
+    height: 40vh;
+    width: 20%;
+    display: inline-table;
+    align-items: center;
+    background-color: #6997BF; 
+    padding: 10px 20px; 
+    border:3px solid #1A4A73;
+    border-radius:22px;
+    text-align: center;
+}
+
+.BorderTop {
+    position: absolute;
+    top: 9.8%;
+    left: 9.5%;
+    width: 6.5%;
+    height: 3px;
+    background: linear-gradient(to right, #171618, #fcc23f);
+    animation: animate-border-top 2s linear infinite;
+}
+
+@keyframes animate-border-top {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {transform: translateX(100%);}
+}
+
+textoOpciones {
+    color: #ffffff;
+    font-family: Arial;
+
+}
+
+.CuadroImagen {
+    margin-top: 3%;
+    margin-right: 3.5%;
+    margin-left: 2%;
+    height: 80vh;
+    width: 60%;
+    display: inline-table;
+    align-items: center;
+    background-color: #6997BF; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border:3px solid #1A4A73;
+    border-radius:22px;
+
+}
+
+#Limite_Inferior{
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+}
+
+#Limite_Inferior::placeholder {
+    text-align: center;
+}
+
+#Limite_Superior{
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+}
+
+
+#Limite_Superior::placeholder {
+    text-align: center;
+}
+
+.switch {
+    text-align: right;
+    margin-top: 3%;
+}
+.switch label{
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 86%;
+}
+
+.btn{
+    background-color: red;
+}
+
+#MostrarBoton {
+    background-color: #194159;
+    color: white;
+    margin-top: 10%;
+    padding: 5px 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial;
+    
+}
+
+#MostrarBoton:hover {
+    background-color: #1A4A73;
+}

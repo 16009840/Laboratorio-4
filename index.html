@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA#4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="Estilos/estilos.css">
+</head>
+<body> 
+    <nav>
+        <textonav> TAREA # 4</textonav>
+    </nav> 
+
+    <div class="Contenedor Cuadros">
+        <div class="CuadroOpciones">
+            <textoOpciones><b>OPCIONES</b></textoOpciones>
+            <input id="Limite_Inferior" type="number" class="LiIn" placeholder="Limite Inferior">
+            <input id="Limite_Superior" type="number" class="LiSu" placeholder="Limite Superior">
+                <div class="switch">
+                 <label>
+                  Mostrar una
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                </label>
+              </div>
+              <button id="MostrarBoton" onclick="Limites()">Mostrar</button>
+        </div>
+
+        <div class="CuadroImagen">
+            <textoimg>IMAGEN</textoimg>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>|
